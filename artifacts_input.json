@@ -1,0 +1,32 @@
+{
+"details" : {
+  "system" : "System",
+  "bot_variant": ["vvv"],
+  "package_name": ["system", ".extension"]
+  },
+
+"artefacts": [
+    {
+      "output_name": "filename1",
+      "filepath": "None",
+      "keymap": ["output keymap filename"],
+      "add_info": {
+        "version": "x.x.x"
+      }
+    },
+
+    {
+      "output_name": "filename2",
+      "filepath": "None",
+      "keymap": ["output keymap filename", "output keymap2 filename"],
+      "add_info": {}
+    },
+
+    {
+      "output_name": "filename3",
+      "filepath": "path_to_search",
+      "keymap": ["output keymap filename"],
+      "add_info": {}
+    }
+  ]
+}
